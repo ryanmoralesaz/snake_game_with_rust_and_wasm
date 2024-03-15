@@ -1,0 +1,29 @@
+{
+  "name": "rust_snake",
+  "version": "1.0.0",
+  "description": "A rust and node game browser game.",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server wasm_game -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WestMecRyan/Rust_Snake.git"
+  },
+  "keywords": [
+    "rust",
+    "snake",
+    "wasm"
+  ],
+  "author": "Ryan Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WestMecRyan/Rust_Snake/issues"
+  },
+  "homepage": "https://github.com/WestMecRyan/Rust_Snake#readme"
+}
