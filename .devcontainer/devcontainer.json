@@ -1,0 +1,19 @@
+{
+  "name": "Rust and TypeScript WASM Game Development",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:0-14",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "rust-lang.rust",
+    "matklad.rust-analyzer",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-typescript-next"
+  ],
+  "postCreateCommand": "bash .devcontainer/post-create-command.sh",
+  "forwardPorts": [
+    8080
+  ],
+  "remoteUser": "node"
+}
